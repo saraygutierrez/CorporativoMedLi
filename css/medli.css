@@ -1,0 +1,298 @@
+/*
+    Document   : css/medli．css
+    Created on : 2014-06-07 03:17 PM
+    Author     : saraygutierrez
+    Description:
+    Purpose of the stylesheet follows.
+    To change this template use Tools | Templates.
+*/
+
+root {
+    display: block;
+}
+
+body {
+    font-family: 16px;
+    padding-top: 140px;
+}
+
+h2 {
+    color: #0460A0;
+    font-style: italic;
+}
+
+/* Contact Form
+==========================*/
+.field textarea {
+    max-width: 97%;
+    min-width: 97%;
+    height: 160px;
+}
+
+.field input {
+    width: 240px;
+}
+
+.field:focus {border: 1px solid #ddd;}
+
+.field label span {color:#ea1c1c;}
+
+.field .validation-error,
+.field .validation-error:focus {
+    border:1px solid #f2c4c2;
+    background: #ffeceb;
+}
+
+.loading {
+    background:url(../images/loader.gif) no-repeat 1px;
+    height:28px;
+    width:28px;
+    display: none;
+    float: left;
+    margin: 5px;
+}
+
+.success-message {display:none;}
+
+
+/*---------------------------------*/
+
+.acercade {
+    background-color: white;
+    margin-top: -250px;
+}
+
+.acercadeimg {
+
+}
+
+.acercadecont {
+    background-color: rgba(256, 256, 256, 0.9);
+    padding: 3em;
+}
+
+.address {
+    text-align: right;
+    padding-right: 3em;
+}
+
+.mobileacerca {
+    height: 260px;
+}
+
+.blue {
+    color: #2e68aa;
+}
+
+.container {
+    padding: 1em;
+    color: #5F5F5F;
+}
+
+.copyright {
+    background-color: #1f1f1f;
+    color: #CBC9CF;
+    font-size: 0.8em;
+    padding: 1em;
+}
+
+.icons a {
+    color: white;
+}
+
+.footer {
+    background-color: #424143;
+    color: #CBC9CF;
+    font-size: 0.9em;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.footer a {
+    color: #CBC9CF;
+}
+
+.footer li {
+    list-style: none;
+    line-height: 2em;
+    text-align: left;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.header-bg {
+
+    height: 120px;
+    border-bottom: solid 1px #0460A0;
+    padding: 25px;
+    text-align: center;
+}
+
+.header-bg img {
+    width: 300px;
+}
+
+.medlitips {
+    background-color: #d76c04;
+    border-radius: 6px;
+    color: white;
+    padding: 1em;
+}
+
+.contenido-productos {
+    padding-top: 2em;
+}
+
+.direccion {
+    padding: 0 3em;
+    font-size: 1.2em;
+}
+
+.producto {
+    min-height: 550px;
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+}
+
+.right {
+    text-align: right;
+}
+
+/* Cambios Bootstrao */
+.navbar-nav > li > a:hover {
+    background-color: #0460A0 !important;
+}
+
+/* Menu iconos */
+@charset "utf-8";
+.menu {
+    position: relative;
+}
+
+.menu ul {
+    height: 39px;
+    overflow: visible;
+}
+
+/* Items */
+.menu ul li {
+    display: block;
+    list-style: none;
+    float: right;
+    height: 100px;
+    min-width: 45px;
+}
+
+.menu ul li a {
+    display: block;
+    height: 19px;
+    margin: 0px;
+    padding-top: 38px;
+    padding-left: 0px;
+    padding-right: 15px;
+    font-size: 14px;
+    font-size: 1em;
+    outline: none;
+    float: right;
+    color: white;
+}
+
+.menu ul li .icon {
+    position: relative;
+    height: 100px;
+    width: 45px;
+    padding: 5px;
+    float: left;
+
+}
+
+.menu ul li .icon img {
+    position: absolute;
+    display: block;
+    margin: 25px 0px;
+    padding: 0px;
+    z-index: 990;
+}
+
+.menu ul li .icon .subicon {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    bottom: 2px;
+    right: 2px;
+    z-index: 995;
+}
+
+.menu ul li .icon a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1000;
+}
+
+.menu ul li .icon .background {
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 980;
+}
+
+/*Subitems level 1*/
+.menu ul li ul {
+    width: 32px;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+.menu ul li ul li {
+    margin-top: 1px;
+}
+
+/*Subitems level 2*/
+.menu ul li ul li ul {
+    height: 60px;
+    width: auto;
+    overflow: hidden;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+.menu ul li ul li ul li {
+    margin-top: 0px;
+}
+
+/* Colors */
+.color1 {
+    background-color: #12547E;
+}
+
+.color2 {
+    background-color: #0460A0;
+}
+
+.color3 {
+    background-color: #52A7CA;
+}
+
+.color4 {
+    background-color: #91D6EA;
+}
+
+
+
