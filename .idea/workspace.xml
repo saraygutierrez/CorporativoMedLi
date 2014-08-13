@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc0d95cd-7ef8-4aa8-a4b3-efda0f6b2604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CorporativoMedLi.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/catalogo/Catalogo Medli 2014.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/catalogo/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/catalogo/catalogo_medli.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/productos/pahsco/sistema_succion.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/productos/unimed/unimed01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/productos/unimed/unimed04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/productos/unimed/unimed05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/productos/unimed/unimed06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/_notes/dwsync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/glyphMenu_min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jQuery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/script.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sitio/contacto.jpg" afterPath="$PROJECT_DIR$/img/sitio/contacto.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/loader.gif" afterPath="$PROJECT_DIR$/img/loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/productos/unimed/unimed02.png" afterPath="$PROJECT_DIR$/img/productos/unimed/unimed02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/productos/unimed/unimed03.png" afterPath="$PROJECT_DIR$/img/productos/unimed/unimed03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/air_liquid.php" afterPath="$PROJECT_DIR$/air_liquid.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalogo.php" afterPath="$PROJECT_DIR$/catalogo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/productos/air/monnal.png" afterPath="$PROJECT_DIR$/img/productos/air/monnal.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacto.php" afterPath="$PROJECT_DIR$/contacto.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
     </list>
     <ignored path="CorporativoMedLi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +29,7 @@
       <file leaf-file-name="contacto.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contacto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="44" selection-start="1014" selection-end="1014" vertical-scroll-proportion="-0.24324325" vertical-offset="585" max-vertical-offset="1815">
+            <state line="35" column="64" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.2027027" vertical-offset="375" max-vertical-offset="1770">
               <folding />
             </state>
           </provider>
@@ -196,7 +165,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/contacto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="44" selection-start="1014" selection-end="1014" vertical-scroll-proportion="-0.24324325" vertical-offset="585" max-vertical-offset="1815">
+        <state line="35" column="64" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.2027027" vertical-offset="375" max-vertical-offset="1770">
           <folding />
         </state>
       </provider>

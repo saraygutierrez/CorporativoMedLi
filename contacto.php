@@ -9,13 +9,6 @@
             <div class="col-xs-12 col-sm-5 acercadecont">
 
                 <h2 class="blue" align="center">CONTACTO</h2>
-
-
-
-
-
-
-
                 <form method="post" action="contacto.php">
                     <div class="form-group">
                         <label for="nombre">Nombre</label>
@@ -40,9 +33,9 @@
                             if(isset($_POST['email'])) {
 
 // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-                                $email_to = "saray.gutierrez@outlook.com";
+                                $email_to = "ventas@medli.com.mx";
                                 $email_subject = "Contacto desde el sitio web";
-
+                                $email_from = $_POST['email'];
 // Aquí se deberían validar los datos ingresados por el usuario
                                 if(!isset($_POST['name']) ||
                                     !isset($_POST['empresa']) ||
@@ -68,8 +61,12 @@
                                     'Reply-To: '.$email_from."\r\n" .
                                     'X-Mailer: PHP/' . phpversion();
                                 mail($email_to, $email_subject, $email_message, $headers);
+                                if (mail) {
+                                    echo "¡El formulario se ha enviado con éxito!";
+                                } else {
+                                    echo "Error de envío";
+                                }
 
-                                echo "¡El formulario se ha enviado con éxito!";
                             }
                             ?>
 
